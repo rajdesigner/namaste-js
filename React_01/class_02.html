@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Class 01: Assignment</title>
+  </head>
+  <body>
+    <h2>1. What is NPM?</h2>
+    <p>
+        npm is the world's largest software registry. Open source developers from every continent use npm to share and borrow packages, and many organizations use npm to manage private development as well.
+
+        npm consists of three distinct components:
+        <ul>
+            <li>the website</li>
+            <li>the Command Line Interface (CLI)</li>
+            <li>the registry</li>
+        </ul>
+        Use the website to discover packages, set up profiles, and manage other aspects of your npm experience. For example, you can set up organizations to manage access to public or private packages.
+
+        The CLI runs from a terminal, and is how most developers interact with npm.
+
+        The registry is a large public database of JavaScript software and the meta-information surrounding it.
+    </p>
+
+    <hr />
+
+    <h2>What is `Parcel/Webpack`? Why do we need it?</h2>
+    <p>
+      Parcel/webpack are referred as bundlers. A bundler is a development tool that combines many JavaScript code files into a single one that is production-ready loadable in the browser. A fantastic feature of a bundler is that it generates a dependency graph as it traverses your first code files that
+      dependencies known as transitive dependencies.
+    </p>
+
+    <hr />
+
+    <h2>What is `.parcel-cache`</h2>
+    <p>
+     '.parcel-cache' is generated when when we run execute project with npx parcel index.html. Basically it cache previous build so that subsequent build will take less time.
+    </p>
+
+    <hr />
+
+    <h2>What is `npx` ?</h2>
+    <p>
+      'npx' stands for node package node package executor. It is an npm package runner that can execute any package that you want from the npm registry without even installing that package.
+    </p>
+
+    <hr />
+
+    <h2>What is difference between `dependencies` vs `devDependencies`</h2>
+    <p>
+      <h3>dependencies refers to actual code that require to run the project in browser</h3>
+      <h3>Dev dependencies are those which we require while developing the project on our local machine.</h3>
+    </p>
+
+    <hr />
+
+    <h2>What is Tree Shaking?</h2>
+    <p>
+      Tree Shaking is the removal of unused code from our project.
+    </p>
+
+    <hr />
+    <h2>
+        What is Hot Module Replacement?
+    </h2>
+
+    <p>
+        Hot Module Replacement (HMR) exchanges, adds, or removes modules while an application is running, without a full reload. This can significantly speed up development in a few ways: Retain application state which is lost during a full reload.
+    </p>
+
+    <hr />
+
+    <h2>List down your favourite 5 superpowers of Parcel and describe any 3 of them in your
+        own words.?</h2>
+
+    <p>
+     <ul>
+        <li>HMR</li>
+        <li>Minification: <span>Minification refers to minify JS files while removing unused code, renaming our variables so that project runs faster.</span></li>
+        <li>Bundling: <span>It refers to adding  dependencies of all files in to one to make project runs on browsers</span></li>
+        <li>Caching: <span>Caching basically caches the previous version, It will not modify it unless there is a forced change</span></li>
+        <li>Adding Polyfills</li>
+     </ul>
+    </p>
+   
+    <hr/>
+    <h2>What is `.gitignore`? What should we add and not add into it?</h2>
+    <p>'.gitignore' files let us enable us to not put those dependencies or files that is not required. They will generated once we install and run the project for example node_module, parcel_cache, vscode-settings etc.</p>
+
+    <hr/>
+    <h2>
+        Difference between package.json and package-lock.json
+    </h2>
+    <p>
+        <figure class="table"><table><thead><tr><th><p style="text-align:center">package.json</p></th><th><p style="text-align:center">package.lock.json</p></th></tr></thead><tbody><tr><td>It contains basic information about the project.</td><td>It describes the exact tree that was generated to allow subsequent installs to have the identical tree.</td></tr><tr><td>It is mandatory for every project.</td><td>It is automatically generated for those operations where npm modifies either node_modules tree or package.json.</td></tr><tr><td>It records important metadata about the project.</td><td>It allows future devs to install the same dependencies in the project.</td></tr><tr><td>It contains information such as name, description, author, script, and dependencies.</td><td>It contains the name, dependencies, and locked version of the project.&nbsp;</td></tr></tbody></table></figure>
+    </p>
+
+    <hr/>
+    <h2>What are node modules? is it a good idea to push that on git?</h2>
+    <p>Node Modules are dependencies that we require to run the project. No it is not a good idea to push it on git.</p>
+
+    <hr/>
+    <h2>What is dist folder?</h2>
+    <p>Dist folder is the place where generated build files resides.</p>
+
+    <hr/>
+    <h2>What are browserlists</h2>
+    <p>Browerlists are array of supported browser of the projects in package.json</p>
+  </body>
+</html>
