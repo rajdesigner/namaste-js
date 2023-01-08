@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Class 02: Assignment</title>
+  </head>
+  <body>
+    <h2>1. What is JSX?</h2>
+    <p>
+        JSX is HTML like syntax and it is a syntax extension to JavaScript. JSX produces React “elements”.
+    </p>
+
+    <hr />
+
+    <h2>2. Superpowers of JSX?</h2>
+    <p>
+     <ul>
+        <li>JSX may remind you of a template language, but it comes with the full power of JavaScript.</li>
+        <li>We can put any valid JavaScript expression inside the curly braces in JSX. For example, 2 + 2, user.firstName, or formatName(user) are all valid JavaScript expressions.</li>
+        <li>JSX is an Expression Too. After compilation, JSX expressions become regular JavaScript function calls and evaluate to JavaScript objects.</li>
+        <li>JSX Prevents Injection Attacks<br/>
+        By default, React DOM escapes any values embedded in JSX before rendering them. Thus it ensures that you can never inject anything that’s not explicitly written in your application. Everything is converted to a string before being rendered. This helps prevent XSS (cross-site-scripting) attacks.</li>
+        <li>JSX Represents Objects
+            Babel compiles JSX down to React.createElement() calls.</li>
+     </ul>
+    </p>
+
+    <hr />
+
+    <h2>Role of type attribute in script tag? What options can I use there</h2>
+    <p>
+     'type' attribute tells the type of script whether it is module, text/javascript etc.
+
+     Options of type:
+     <ul>
+        <li>Attribute is not set (default), an empty string, or a JavaScript MIME type</li>
+        <li>Module</li>
+        <li>importMap</li>
+     </ul>
+    </p>
+</html>
