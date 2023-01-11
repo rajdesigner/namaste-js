@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&display=swap');
+
+.container{
+    width: 100%;
+    height: auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-family: Cinzel, serif;
+}
+.top_wrapper{
+    width: 1200px;
+    display: flex;
+    flex-direction: row ;
+    margin: 0 auto;
+    align-items: center;
+    padding: 15px 0;
+    justify-content: space-between;
+}
+
+h1{
+    background: -webkit-linear-gradient(#66c9ae, #afdf87);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Cinzel, serif;
+    font-size: 42px;
+    margin: 0;
+}
+
+.search_logo_wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.top_wrapper > .search_logo_wrapper > div.searchbar {
+    display: flex;
+    margin-left: 3rem;
+}
+
+.top_wrapper > .search_logo_wrapper> div:nth-child(2){
+    text-align: center;
+}
+
+.top_wrapper > .search_logo_wrapper > div:nth-child(2) > input{
+    width: 24rem;
+    height: 30px;
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.top_wrapper > .search_logo_wrapper > div:nth-child(2) > button{
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-left: none;
+    padding: 8px;
+    height: 38px;
+}
+
+div.profile{
+    justify-self: flex-end;
+}
+
+
+
+

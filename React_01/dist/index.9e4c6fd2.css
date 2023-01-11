@@ -1,0 +1,75 @@
+@import "https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&display=swap";
+.container {
+  width: 100%;
+  height: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #000;
+  font-family: Cinzel, serif;
+  text-decoration: none;
+}
+
+.top_wrapper {
+  width: 1200px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+}
+
+h1 {
+  background: -webkit-linear-gradient(#66c9ae, #afdf87);
+  -webkit-background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  font-family: Cinzel, serif;
+  font-size: 42px;
+}
+
+.search_logo_wrapper {
+  align-items: center;
+  display: flex;
+}
+
+.top_wrapper > .search_logo_wrapper > div.searchbar {
+  margin-left: 3rem;
+  display: flex;
+}
+
+.top_wrapper > .search_logo_wrapper > div:nth-child(2) {
+  text-align: center;
+}
+
+.top_wrapper > .search_logo_wrapper > div:nth-child(2) > input {
+  width: 24rem;
+  height: 30px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+.top_wrapper > .search_logo_wrapper > div:nth-child(2) > button {
+  cursor: pointer;
+  height: 38px;
+  border: 1px solid #ddd;
+  border-left: none;
+  padding: 8px;
+}
+
+div.profile {
+  justify-self: flex-end;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
