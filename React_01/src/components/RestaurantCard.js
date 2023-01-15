@@ -16,7 +16,7 @@ const RestaurantCard = ({
         <h3>{cuisines.join(", ")}</h3>
         <p className="avgRating">
           {" "}
-          <span class="fa fa-star checked"></span> {avgRating}
+          <span className="fa fa-star checked"></span> {avgRating}
         </p>
       </div>
     </a>
