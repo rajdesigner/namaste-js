@@ -151,4 +151,44 @@ div.profile{
 
 }
 
+/*
+
+    Shimmer UI Card
+
+*/
+
+._shimmer_card{
+    height: 180px;
+}
+
+._shimmer_card ._shimmer_img_block{
+    width: 100%;
+    background-color: #d3d5df;
+    height: 110px;
+}
+
+._shimmer_card .text_big{
+    width: 80%;
+    height: 15px;
+    background-color: #d3d5df;
+    margin-top: 10px;
+}
+
+._shimmer_card .text_short{
+    width: 60%;
+    height: 10px;
+    background-color: #d3d5df;
+    margin-top: 10px;
+}
+
+._shimmer_card .text_short_short{
+    width: 40%;
+    height: 10px;
+    background-color: #d3d5df;
+    margin-top: 10px;
+}
+
+
+
+
 
