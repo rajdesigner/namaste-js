@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Class 04: Assignment</title>
+  </head>
+  <body>
+    <h2>1. Is JSX mandatory for React?</h2>
+    <p>
+        No JSX is not mandatory for react, as React is a library and we can import to pur project and work it with just like
+        any other library. Although JSX can be used to provide more useful error and warning messages.
+    </p>
+
+
+    <h2>2. Is ES6 mandatory for react?</h2>
+    <p>
+        No ES6 is not mandatory for react. Normally we would define a React component as a plain JavaScript class:
+    </p>
+
+    <hr />
+
+    <h2>3. "{TitleComponent} Vs {<TitleComponent/>} Vs {<TitleComponent></TitleComponent>}"</h2>
+    <p>
+        {TitleComponent} is a way to write javascript inside in HTMl, using curly braces we can access javascript variables and functions, we can only include 
+        expression not statements inside {}.
+
+        '<TitleComponent />'' This is used when we are using a Javascript function which is returning the JSX element. 
+        '<TitleComponent></TitleComponent>'' This is used when The JSX element has Child components.
+    </p>
+
+    <hr />
+
+    <h2>How can I write comments in JSX?</h2>
+    <p>
+       We can write comments like {/* whenClicked is a property not an event, per se. */}
+    </p>
+
+    <hr/>
+
+    <h2>What is <React.fragment> </React.fragment> and '<></>' </h2>
+    <p>
+       This is a way to return multiple children inside a parent tag without rendering the extra element.
+    </p>
+
+    <h2>What is Virtual DOM?</h2>
+    <p>The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”, representation of a UI is kept in memory and synced with the “real” DOM by a library such as ReactDOM. This process is called reconciliation.</p>
+
+    <h2>What is React Fiber</h2>
+    <p>Fiber is the new reconciliation engine in React 16. Its main goal is to enable incremental rendering of the virtual DOM. </p>
+
+    <h2>Why do we need keys in React?When do we need Keys in react?</h2>
+    <p>A “key” is a special string attribute you need to include when creating lists of elements in React. Keys are used in React to identify which items in the list are changed, updated, or deleted. In other words, we can say that keys are used to give an identity to the elements in the lists</p>
+
+    <h2>Can we use index as a key in react?</h2>
+    <p>We can use index as keys in react, but it is not recommended, It negatively impact performance and may cause issues with component state. 
+      As we know that React uses keys to identify we object is changed in real time and if we add new element with index as key, If the key is same as before React assumes that the DOM element represents the same component as before. 
+
+    </p>
+
+    <h2>What is Props in react?</h2>
+    <p>Props are arguments passed into React components. Props are passed to components via HTML attributes.
+    <strong>Props are also how you pass data from one component to another, as parameters. </strong></p>
+
+    <h2>What is Config Driven UI</h2>
+    <p>With CDD we build applications like this:
+
+      Independent components are built first, starting at the atomic level
+      An interface (usually JSON) is defined to compose the higher level UI
+      Combination of reusable components and JSON blueprint allows developers to easily build up and out</p>
+</html>
