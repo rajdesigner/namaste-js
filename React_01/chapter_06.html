@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Class 06: Assignment</title>
+  </head>
+  <body>
+    <h2>1. What is Microservices</h2>
+    <p>
+       Microservices are small components of a big components.
+    </p>
+
+
+    <h2>2. What is Monolith Architecture?</h2>
+    <p>
+        A monolithic architecture is the traditional unified model for the design of a software program. Monolithic, in this context, means "composed all in one piece." Monolithic applications are single-tiered, which means multiple components are combined into one large application. Consequently, they tend to have large codebases, which can be cumbersome to manage over time.
+    </p>
+
+    <hr />
+
+    <h2>3. Difference between MicroService and Monolith Architecture?</h2>
+    <p>
+        Microservices are small components of a big components.
+     </p>
+     <p>
+        A monolithic architecture is the traditional unified model for the design of a software program. Monolithic, in this context, means "composed all in one piece." Monolithic applications are single-tiered, which means multiple components are combined into one large application. Consequently, they tend to have large codebases, which can be cumbersome to manage over time.
+    </p>
+
+    <hr />
+
+    <h2>Why do we need useEffect Hook</h2>
+    <p>
+        useEffect is a function that let us interact with outside world. It contains a callBack function, it is called when useEffect wants to call. It is also depends on dependencies
+    </p>
+
+    <h2>What is optional chaining?</h2>
+    <p>The optional chaining (?.) operator accesses an object's property or calls a function. If the object accessed or function called is undefined or null, it returns undefined instead of throwing an error.</p>
+
+    <h2>What is shimmer UI?</h2>
+    <p>Shimmer UI is blank spots on UI, it renders until our data available to UI.</p>
+
+    <h2>What is difference between JS expression and statement?</h2>
+    <p>Expressions produce a value, and that value will be passed into the function. Statements don't produce a value, and so they can't be used as function arguments.</p>
+
+    <h2>What is Conditional Rendering? Explain with a example?</h2>
+    <p>
+        Conditional rendering in React works the same way conditions work in JavaScript. Use JavaScript operators like if or the conditional operator to create elements representing the current state, and let React update the UI to match them.
+
+        <code>
+            function Greeting(props) {
+                const isLoggedIn = props.isLoggedIn;
+                if (isLoggedIn) {
+                  return <UserGreeting />;
+                }
+                return <GuestGreeting />;
+              }
+              
+              const root = ReactDOM.createRoot(document.getElementById('root')); 
+              // Try changing to isLoggedIn={true}:
+              root.render(<Greeting isLoggedIn={false} />);
+        </code>
+    </p>
+   
+    <h2>What is CORS?</h2>
+    <p>Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. CORS also relies on a mechanism by which browsers make a "preflight" request to the server hosting the cross-origin resource, in order to check that the server will permit the actual request. In that preflight, the browser sends headers that indicate the HTTP method and headers that will be used in the actual request.</p>
+
+
+    <h2>What is async and await</h2>
+    <p>The async function declaration declares an async function where the await keyword is permitted within the function body. The async and await keywords enable asynchronous, promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains.</p>
+</html>
