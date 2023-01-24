@@ -1,10 +1,7 @@
 import { useState } from "react";
-import { restaurantlist } from "../../Constants/config";
 
 const HeaderComponent = ({
   restaurants,
-  setRestaurants,
-  filteredRestaurants,
   setFilteredRestaurants,
 }) => {
   const [searchText, setSearchText] = useState("");
